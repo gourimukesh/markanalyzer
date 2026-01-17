@@ -6,7 +6,7 @@ import json, tempfile, os, time, streamlit as st
 try:
     API_KEY = st.secrets["GEMINI_API_KEY"]
 except:
-    API_KEY = "local key" # For local testing only
+    API_KEY = "AIzaSyBsAPs9Cq5mmx35iUhJxf6J0ki1OHskflk" # For local testing only
 
 client = genai.Client(api_key=API_KEY)
 
